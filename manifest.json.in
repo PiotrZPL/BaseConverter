@@ -1,0 +1,15 @@
+{
+    "name": "baseconverter.piotrzpl",
+    "description": "A simple app to convert numbers from one base to another",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Base Converter",
+    "hooks": {
+        "baseconverter": {
+            "apparmor": "baseconverter.apparmor",
+            "desktop":  "baseconverter.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Piotr Lange <zpl20052020@protonmail.ch>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
